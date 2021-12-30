@@ -1,0 +1,21 @@
+{
+  "name": "apirest-fazt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "node-os-utils": "^1.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
