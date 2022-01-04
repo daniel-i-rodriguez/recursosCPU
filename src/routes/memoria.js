@@ -10,6 +10,8 @@ router.get('/memoria', (req, res) => {
        .then(info => {
         console.log(info)
         res.json(info);
+
+        
     })
 
     
